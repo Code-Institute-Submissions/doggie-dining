@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Doggie Dining </title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-primary"> 
+    <a href="index.html" class="navbar-brand"> <img src="assets/images/logo-image.png" alt="logo"></a>
+</nav>
+
+<header class="container">
+    <h1>Welcome to Doggie Dining!</h1>
+    <h2>It's A Doggie Life</h2>
+        <p>Let's face it... Some of us can't go anywhere without our little canine counterparts! Well, I guess you are in luck!
+           You've stumbled upon the right webpage here.
+           Across our beautiful country there are many dog friendly restaurants and for and your buddy to chose from.
+           Here is a list of places you can plan to visit for that special meal.
+        </p>
+</header>
+
+<div class="container mt-5 image">
+    <div class="row">
+        <div class="col text-center">
+             <img src="assets/images/main-image.jpg" alt="" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+
+<div id="map">
+</div>
+
+<script>
+        function initMap(){
+            var options = {
+                zoom: 7,
+                center: {lat: 52.24718, lng: -7.08307}
+            };
+
+            var map = new
+            google.maps.Map(document.getElementById("map"), options);
+
+        }
+</script>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWrIaltFhz8geg0pHxbjbGugqYMJQ9row
+    &callback=initMap">
+</script>
+
+<section class="container">
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+</section>
+    
+<footer class="container-fluid">
+
+</footer>
+
+</body>
+
+</html>

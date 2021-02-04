@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+#map {
+    height: 100%;
+}
+
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+/*------------------------Nav Bar------------------------*/
+
+.navbar{
+    height: 120px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.navbar-brand img{
+    position: absolute;    
+    left: 50%;
+    margin-left: -50px;
+    display: block;
+}
+
+/*------------------------Heading------------------------*/
+
+header{
+    text-align: center;
+    font-family: "Yusei Magic";
+}
+
+/*------------------------Images------------------------*/
+
+
+/*---------------------Google Maps----------------------*/
+
+#map {
+    height: 100%;
+}
+
+/*---------------------Restraunts----------------------*/
+
+
+
+
+/*---------------------Footer--------------------------*/
+
+footer{
+    background-color: black;
+    color: #fff;
+    min-height: 120px;
+    margin-top: 48px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
