@@ -30,7 +30,7 @@ padding: 0;
 
 header{
     text-align: center;
-    font-family: "Yusei Magic";
+    font-family: "Yusei Magic", sans-serif;
     padding-top: 20px;
 }
 
@@ -41,7 +41,7 @@ h2{
 header p{
     padding-top: 20px;
     font-size: 120%;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", sans-serif;
     padding-bottom: 40px;
 }
 
@@ -59,13 +59,13 @@ header p{
 }
 
 h3{
-    font-family: "Yusei Magic";
+    font-family: "Yusei Magic", sans-serif;
     padding: 20px;
     text-decoration: underline;
 }
 
 .restaurants p{
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", sans-serif;
     font-size: 120%;
     padding: 20px;
 }
@@ -104,5 +104,5 @@ footer{
     margin-top: 48px;
     padding: 20px;
     text-align: center;
-    font-family: "Oswald", sans-serif;
+    font-family: "Yusei Magic", sans-serif;
 }
