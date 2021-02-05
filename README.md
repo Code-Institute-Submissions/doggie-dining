@@ -9,7 +9,7 @@ I chose to do my second project on a webpage that shows dog friendly restaurants
 
 **Strategy Plane**
 
-* I thought of what the web page should consist of and how to make it user friendly and easy to navigate through.
+* I thought of what the web page should consist of and how to make it user-friendly and easy to navigate through.
 
 **Scope Plane**
 
@@ -25,7 +25,7 @@ I chose to do my second project on a webpage that shows dog friendly restaurants
 
 **Surface Plane**
 
-* After researching and going through pros and cons, i finally decided how the end result should appear.
+* After researching and going through pros and cons, I finally decided how the end result should appear.
 
 
 ## User Stories
@@ -100,7 +100,7 @@ I chose to do my second project on a webpage that shows dog friendly restaurants
 
 * This highlights on the map where the described venues on the page are located.
 
-* It features links to contact these restraunts.
+* It features links to contact these restaurants.
 
 * A linkable email address in the footer to contact the web page.
 
@@ -167,17 +167,17 @@ To clone this project from GitHub:
 
 * I tested all links to make sure they are working for the user.
 
-* I tested the my code through [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure my code was running smoothly with no errors.
+* I tested my code through [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure my code was running smoothly with no errors.
 
 * I tested my JavaScript code through [Esprima](https://esprima.org/demo/validate.html) to check for errors.
 
 # Testing Client User Stories
 
-1. As a dog owner, I want to see restraunts to eat with my dog.
+1. As a dog owner, I want to see restaurants to eat with my dog.
 
-* The Google Maps API locates dog friendly restraunts for you and your dog to eat at.
+* The Google Maps API locates dog friendly restaurants for you and your dog to eat at.
 
-2. As a dog owner, I want to see pictures and read information of these restraunts.
+2. As a dog owner, I want to see pictures and read information of these restaurants.
 
 * Images and bios have been displayed for the user to see.
 
@@ -194,6 +194,52 @@ To clone this project from GitHub:
 * During the project I have used an API and implemented it on my project. I have used JavaScript and furthered my knowledge on HTML, CSS & other technologies.
 
 # Bugs
+
+* Adding the images to my page under the restaurants section I came across a problem, where on mobile view the images were not lining up centre. White space was occupying the side.
+
+```
+<div class="container gallery-images">
+            <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                 <img src="assets/images/loko-one.jpg" class="thumbnail" alt="galleryimage">
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="assets/images/loko-two.jpg" class="thumbnail" alt="galleryimage">
+            </div> 
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="assets/images/loko-three.jpg" class="thumbnail" alt="galleryimage">
+            </div>
+
+            </div>
+            </div>
+```
+
+I fixed this by changing the class.
+
+```
+<div class="container gallery-images">
+            <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                 <img src="assets/images/loko-one.jpg" class="img-responsive" alt="galleryimage">
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="assets/images/loko-two.jpg" class="img-responsive" alt="galleryimage">
+            </div> 
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="assets/images/loko-three.jpg" class="img-responsive" alt="galleryimage">
+            </div>
+
+            </div>
+            </div>
+```
+
+* Adding ```overflow-x: hidden; ``` in my CSS also helped fix this problem.
 
 # Credits
 
